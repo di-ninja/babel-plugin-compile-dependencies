@@ -1,0 +1,36 @@
+{
+  "name": "babel-plugin-compile-dependencies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/di-ninja/babel-plugin-compile-dependencies.git"
+  },
+  "keywords": [
+    "require",
+    "context",
+    "require.context",
+    "webpack",
+    "polyfill",
+    "directory"
+  ],
+  "author": "Jo <jo@redcat.ninja> (https://redcat.ninja)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/di-ninja/babel-plugin-compile-dependencies/issues"
+  },
+  "homepage": "https://github.com/di-ninja/babel-plugin-compile-dependencies#readme",
+  "dependencies": {
+    "babel-plugin-module-resolver": "^3.1.1",
+    "json5": "^2.1.0",
+    "read-babelrc-up": "^0.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "jest": "^23.6.0"
+  }
+}

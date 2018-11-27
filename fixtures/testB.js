@@ -1,0 +1,5 @@
+/*
+@compileDependencies([
+  './testA',
+])
+*/
